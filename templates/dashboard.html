@@ -1,10 +1,39 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Simple HTML</title>
-</head>
-<body>
-	<h1>Hello, World!</h1>
-</body>
-</html>
+<style>
+.sidebar {
+  background-color: #f4f4f4;
+  width: 200px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
+</style>
+
+<div class="sidebar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Customer</a></li>
+    <li><a href="#">Item</a></li>
+  </ul>
+</div>
